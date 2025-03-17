@@ -46,6 +46,7 @@ After fine-tuning, the model was downloaded and integrated into a FastAPI applic
 ## Alternative Model
 
 During development, the [j-hartmann/emotion-english-distilroberta-base](https://huggingface.co/j-hartmann/emotion-english-distilroberta-base) model was also explored. This model is fine-tuned directly on emotion data and provides direct emotion labels, offering a valuable benchmark and alternative approach to emotion classification.
+![j-hartmann/emotion-english-distilroberta-base](assets/0-jhart.png)
 
 ## Suggestions & Next Steps
 
