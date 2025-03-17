@@ -2,14 +2,14 @@
 
 This project implements an emotion detection system using a fine-tuned DistilBERT model. Originally built for binary sentiment classification (positive/negative), the approach was extended to classify text into a broader set of emotions by leveraging the Go-Emotions dataset.
 
-## Overview
+## Firstly
 
 - **Initial Approach:**  
   The project started by using a DistilBERT model for text classification into two labels (positive and negative).  
   ![DistilBERT Classification](assets/0-Distelbert.png)
 
 - **Dataset – Go-Emotions:**  
-  We used the [Go-Emotions](https://huggingface.co/datasets/go_emotions) dataset from Hugging Face, which contains 28 distinct emotion labels. For this project, these 28 emotions were remapped into 6 broader categories to simplify the classification task and focus on key emotional responses.
+  I used the [Go-Emotions](https://huggingface.co/datasets/go_emotions) dataset from Hugging Face, which contains 28 distinct emotion labels. For this project, these 28 emotions were remapped into 6 broader categories to simplify the classification task and focus on key emotional responses.
 
 ## Model Training
 
